@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌈 MoodVerse – Sentiment Analysis & Mood Journaling App
 
-## Getting Started
+**MoodVerse** is a self-reflective journaling web application that allows users to track their daily moods, write journal entries, analyze their emotional states using AI, and receive personalized content recommendations. Built with **Next.js**, **Prisma**, **Clerk**, and integrated with **OpenAI’s API**, MoodVerse is designed to help users become more emotionally aware and mentally balanced.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧠 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ✍️ **Journal Entry Creation** – Write, view, and manage your daily thoughts.
+- 😊 **Mood Tracking** – Record mood with options to include time, weather, and location.
+- 🤖 **AI-Powered Sentiment Analysis** – Analyze the emotional tone of entries using OpenAI.
+- 🧾 **Personalized Content Recommendations** – Receive quotes, articles, and activities based on mood and sentiment.
+- ⭐ **Content Ratings** – Rate how helpful or relatable the AI-suggested content is.
+- 🔐 **Secure Authentication** – Managed using Clerk for a smooth sign-up/login experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Tech Stack
 
-## Learn More
+| Layer          | Technology               |
+|----------------|---------------------------|
+| **Frontend**   | Next.js, HTML, CSS, Bootstrap |
+| **Backend**    | Prisma ORM, OpenAI API     |
+| **Auth**       | Clerk                      |
+| **Database**   | PostgreSQL                 |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📽 Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[![Watch Demo](https://img.shields.io/badge/Demo-Click%20to%20Watch-blue?style=for-the-badge)](https://drive.google.com/file/d/1L_mv0Af8jjdwKW_1d33VVZDVBNvl-hhy/view?usp=sharing)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧭 How It Works
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 1. User Authentication
+- Sign up or log in using Clerk’s secure authentication system.
+
+### 2. Dashboard Navigation
+- Access sections like:
+  - Journal Entry
+  - Mood Tracker
+  - Sentiment Analysis
+  - Content Recommendation
+
+### 3. Journal Entry
+- Add daily entries via a text box.
+- View your journaling history in reverse chronological order.
+
+### 4. Mood Tracking
+- Choose a predefined mood or input your own.
+- Optionally record time, weather, and location data.
+
+### 5. Sentiment Analysis
+- Entries are analyzed in real-time using OpenAI API.
+- Emotional tone is extracted to guide recommendations.
+
+### 6. Content Recommendation
+- System suggests content (quotes, articles, activities) based on your mood and sentiment analysis.
+- Curated suggestions to improve or align with your emotional state.
+
+### 7. Ratings
+- Provide feedback by rating the content (⭐ 1–5 stars).
+- Helps the system improve future recommendations.
+
